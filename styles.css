@@ -3,14 +3,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    font-family: monospace;
+    background-color: bisque;
+    color: rgb(86, 86, 134);
 }
 .container {
     display: flex;
     border: 3px solid green;
-    margin: 20px;
+    margin: 10px;
     flex-direction: column;
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
 }
 
 .box-cont{
@@ -21,6 +26,11 @@ body {
 
 .box {
     flex:1;
-    border: 1px solid pink;
+    border: 0.1px solid pink;
     
+}
+
+.box.hover {
+    background-color: rgb(57, 37, 37);
+    border-color:  rgb(57, 37, 37);
 }
