@@ -34,3 +34,18 @@ body {
     background-color: rgb(57, 37, 37);
     border-color:  rgb(57, 37, 37);
 }
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.choices > button {
+    background-color: bisque;
+    border: 2px solid rgb(3, 75, 3);
+    font-family: 'VT323', monospace;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 2px 2px;
+}
