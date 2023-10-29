@@ -36,8 +36,9 @@ const rgb = document.querySelector('#rgb');
 rgb.addEventListener('click', () => {
     boxes.forEach((box) => {
         box.addEventListener('mouseover', function(event) {
-            event.target.style.backgroundColor = randomColor();
-            event.target.style.borderColor = randomColor();
+            let rand = randomColor()
+            event.target.style.backgroundColor = rand;
+            event.target.style.borderColor = rand;
             });
         });
 })
